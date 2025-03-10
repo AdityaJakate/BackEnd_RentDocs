@@ -6,6 +6,7 @@ const userRoutes = require("./routes/userRoutes");
 
 const app = express();
 
+console.log("here req hit");
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));

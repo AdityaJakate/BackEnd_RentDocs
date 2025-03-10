@@ -1,7 +1,7 @@
 const pool = require("../config/config");
 const { response } = require("../utils/response");
 
-const imagePath = `http://10.31.0.215:9005/uploads/`;
+const imagePath = `http://16.170.211.1:9005/uploads/`;
 
 // Insert new doc
 const insertDoc = async (req, res) => {

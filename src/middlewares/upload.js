@@ -3,7 +3,7 @@ const SharpMulter = require("sharp-multer");
 const path = require("path");
 
 const storage = SharpMulter({
-  destination: (req, file, callback) => callback(null, "../uploads"),
+  destination: (req, file, callback) => callback(null, "/home/ubuntu/BackEnd_RentDocs/uploads"),
   imageOptions: {
     fileFormat: "jpg",
     quality: 100,
